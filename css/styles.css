@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: #043927;
+    height: 140px;
+    width: 100%;   
+}
+
+.logo {
+    height: 138px;
+    width: 367px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.nav-list {
+    float: right;
+    padding-right: 30px; 
+    margin-right: 0px; 
+}
+
+.list-item {
+    float: left;
+    list-style-type: none;
+    margin-top: 40px;
+    padding-right: 50px;  
+    margin-right: 0px; 
+    font-size: 24px;
+    color: #DBB85B; 
+}
+/* End of Nav Bar */
+
+.hero {
+    background-image: url('../img/beach-dogs.jpg'); 
+    height: 712px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-box {
+    position: relative;
+/*    background-color: red;  */  /*  to see containing box of h1 text  */
+    height: 80px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+h1 {
+    margin: 0px; /* eliminate browser inserted top margin */
+    color: rgba(63, 63, 63, 0.8);
+    text-align: center;
+    line-height: 2.4em; /* vertical adjustment of text relative to hero-box, see: http://phrogz.net/CSS/vertical-align/index.html */
+}
+/* End of Hero */
+
+.content {
+      background-color: #CAB577; 
+/*    background-color: #838060; */
+/*    background-color: #A79E84; */ 
+/*    background-color: #686256; */
+/*    background-color: #484F4F; */
+/*    background-color: #625750; */
+/*    background-color: #588c7e; */
+
+    height: 600px;
+    width: 100%;
+}
+
+.content-img {
+    height: 499px;
+    width: 375px;
+    margin-left: 58px;
+    margin-top: 50px;
+    margin-right: 70px;
+    float: left;
+}
+
+.content-text {
+    margin-top: 0px; /* eliminate browser inserted top margin */
+    padding-top: 80px; /* to push text down below image top */ 
+    margin-right: 50px;
+    font-size: 26px;
+    color: rgba(63, 63, 63, 0.8); 
+}
+
+
+
+
